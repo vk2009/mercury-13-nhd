@@ -1,5 +1,5 @@
 /* ============================================
-   MERCURY 13 — NHD WEBSITE
+  BREAKING BARRIERS: THE ROAD TO SALLY RIDE — HISTORY PROJECT
    Editorial / Archival Aesthetic
    Vintage Life Magazine meets NASA Documents
    ============================================ */
@@ -94,7 +94,7 @@ a:hover { color: var(--red-dark); }
 .site-subtitle {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--gold);
@@ -182,6 +182,9 @@ a:hover { color: var(--red-dark); }
 
 .hero-headline em {
   color: var(--red);
+  /* font-size: 0.5em; */
+  /* line-height: 0.4em; */
+  /* padding: 0.1em 0.15em; */
   font-style: italic;
 }
 
@@ -209,7 +212,7 @@ a:hover { color: var(--red-dark); }
 }
 
 .photo-placeholder::before {
-  content: '[ PHOTOGRAPH ]';
+  content: url('jerrie-cobb-gimbal-rig.jpg');
   position: absolute;
   top: 50%;
   left: 50%;
@@ -280,6 +283,32 @@ a:hover { color: var(--red-dark); }
 /* ---- CONTENT SECTIONS ---- */
 .content-section { padding: 3rem 1.5rem; }
 .content-section + .content-section { border-top: 1px solid var(--gray-light); }
+
+.central-question-section .section-inner {
+  max-width: var(--col-max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.central-question-section .section-heading {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  padding-top: 0.5rem;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.central-question-section .section-heading::after {
+  content: none;
+}
 
 .section-inner {
   max-width: var(--col-max);
@@ -723,7 +752,7 @@ a:hover { color: var(--red-dark); }
   color: var(--ink);
 }
 
-/* ---- POLICY LOCK PAGE ---- */
+/* ---- THE CAUSE PAGE ---- */
 .document-header {
   display: flex;
   gap: 1.5rem;
@@ -1088,7 +1117,8 @@ a:hover { color: var(--red-dark); }
   .compare-col-label:first-child::before { content: 'OLD: '; }
   .milestone-banner { flex-direction: column; gap: 0.75rem; }
   .thesis-inner { flex-direction: column; gap: 1rem; }
-  .thesis-label { writing-mode: initial; transform: none; }
+  .thesis-label, .central-question-section .section-heading { writing-mode: initial; transform: none; }
+  .central-question-section .section-inner { grid-template-columns: 1fr; }
   .page-header-inner { gap: 1rem; }
   .page-num { font-size: 2.5rem; }
   .doc-tabs { flex-wrap: wrap; }

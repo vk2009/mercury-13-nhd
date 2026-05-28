@@ -1,7 +1,7 @@
-# Mercury 13 — NHD Website
+# Breaking Barriers: The Road to Sally Ride — History Project
 
-**National History Day | Senior Individual Website**  
-**Theme:** Rights & Responsibilities in History
+**History Project**  
+**Theme:** Innovation in History: Impact, Influence, Change
 
 ---
 
@@ -10,10 +10,12 @@
 ```
 mercury13/
 ├── index.html                  # Tab 1: Home (thesis, metadata, navigation)
-├── biological-myth.html        # Tab 2: The Biological Myth (1960 Life magazine)
-├── policy-lock.html            # Tab 3: The Policy Lock (1962 Congressional Hearing)
-├── technological-solution.html # Tab 4: Technological Solution (1983 Space Shuttle)
-├── documentation.html          # Tab 5: Process Paper & Annotated Bibliography
+├── the-before.html            # Tab 2: The Before (1960 Life magazine)
+├── the-cause.html             # Tab 3: The Cause (1962 Congressional Hearing)
+├── the-aftermath.html         # Tab 4: The Aftermath (1983 Space Shuttle)
+├── the-counterargument.html   # Tab 5: The Counterargument (alternate readings)
+├── the-significance.html     # Tab 6: The Significance (project impact)
+├── documentation.html          # Tab 7: Process Paper & Annotated Bibliography
 ├── css/
 │   └── style.css
 ├── js/
